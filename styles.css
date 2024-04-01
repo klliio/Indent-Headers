@@ -1,0 +1,54 @@
+/* Indents the marked elements depending on their heading */
+.markdown-preview-view h1,
+.indent-1 {
+  left: 0px;
+  position: relative;
+}
+  
+.markdown-preview-view h2,
+.indent-2 {
+  left: 10px;
+  position: relative;
+}
+  
+.markdown-preview-view h3,
+.indent-3 {
+  left: 20px;
+  position: relative;
+}
+  
+.markdown-preview-view h4,
+.indent-4 {
+  left: 30px;
+  position: relative;
+}
+  
+.markdown-preview-view h5,
+.indent-5 {
+  left: 40px;
+  position: relative;
+}
+  
+.markdown-preview-view h6,
+.indent-6 {
+  left: 50px;
+  position: relative;
+}
+
+.markdown-preview-view div:has(h1),
+.markdown-preview-view div:has(h2),
+.markdown-preview-view div:has(h3),
+.markdown-preview-view div:has(h4),
+.markdown-preview-view div:has(h5),
+.markdown-preview-view div:has(h6){
+    border-bottom: 3px ridge rgba(205,214,244,0.30);
+}
+
+.markdown-preview-view div h1,
+.markdown-preview-view div h2,
+.markdown-preview-view div h3,
+.markdown-preview-view div h4,
+.markdown-preview-view div h5,
+.markdown-preview-view div h6{
+    margin-bottom: 0;
+}
